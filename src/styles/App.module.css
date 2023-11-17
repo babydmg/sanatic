@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.weatherCard {
+  box-shadow: 5px 10px 18px #888888;
+  padding: 1rem 2rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.label {
+  margin-right: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.input {
+  padding: 0.8rem 1rem;
+  text-align: center;
+  border: 1.5px solid #888888;
+  border-radius: 10px;
+}
+
+.form {
+  margin-top: 1rem;
+}
+
+.weatherDetails {
+  margin-top: 1rem;
+}
+
+.locationDetails {
+  font-weight: 500;
+}
+
+.weatherConditionContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.weatherConditionContainer div {
+  text-align: left;
+}
+
+.weatherConditionContainer h3 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.weatherConditionContainer p {
+  font-weight: 600;
+}
+
+.avgDayConditions {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.avgDayConditions div {
+  text-align: left;
+}
+
+.avgDayConditions h3 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.avgDayConditions p {
+  font-weight: 600;
+}
